@@ -40,7 +40,7 @@ YouTube is an American online video sharing and social media platform owned by G
 
 [Deploy Link](https://construct-week-you-tube-clone.netlify.app/)
 <br>
-[Presentation Link](https://drive.google.com/file/d/1VUCvPnLsopPaQZRoDkemBy8uptLgwIWg/view?usp=sharing)
+[Presentation Link](https://drive.google.com/file/d/15GM6UibCzPaO6h-qPdcwB6JAAHFTtpD5/view?usp=sharing)
 
 ## Tech Stack
 
