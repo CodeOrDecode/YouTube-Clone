@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainconbelog {
+  width: 100%;
+  /* height: 1700px; */
+  display: flex;
+  justify-content: space-between;
+  /* overflow-y: hidden; */
+}
+
+.firstbeforelog {
+  padding: 0px 16px;
+  /* margin-top: 16px; */
+  height: 90vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: fixed;
+  left: 0px;
+  margin-top: 70px;
+}
+
+.protectorfirstlog {
+  width: 210px;
+}
+
+.firstbeforelog:hover {
+  overflow-y: scroll;
+}
+
+.icondiv1 {
+  width: 210px;
+  height: 42px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.icondiv1 > svg {
+  width: 25px;
+  margin-left: 14px;
+}
+
+.icondiv1 > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 18px;
+}
+
+.icondiv1:hover {
+  background-color: rgb(240, 236, 236);
+}
+
+.formacon {
+  width: 210px;
+  height: 42px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  padding-left: 16px;
+  margin-top: 26px;
+}
+
+.formacon > p:nth-child(1) {
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #676767;
+}
+
+.formacon > p:nth-child(2) {
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #676767;
+}
+
+.formacon > p:nth-child(3) {
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #676767;
+}
+
+.formacon > p:nth-child(4) {
+  margin-top: 17px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #676767;
+}
+
+.formacon > p:nth-child(5) {
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #676767;
+}
+
+.formacon > p:nth-child(6) {
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #676767;
+}
+
+.formacon > p:nth-child(7) {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #676767;
+}
+
+.ruller {
+  background-color: #e5e5e5;
+  height: 1px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 150%;
+}
+
+.unnecessary1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.thirdnavcon1 {
+  width: 102px;
+  height: 37px;
+  border: 1px solid #cccccc;
+  border-radius: 24px 24px 24px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  justify-content: space-around;
+  padding: 0px 8px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.thirdnavcon1:hover {
+  background-color: #e0f5f3;
+  border: 1px solid white;
+}
+
+.unnecessary2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.secondbeforelog {
+  width: 1083px;
+  /* height: 500px; */
+  display: flex;
+  /* background-color: blue; */
+}
+
+.topics {
+  width: 1054px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  padding-top: 90px;
+  padding-bottom: 34px;
+  padding-left: 20px;
+}
+
+.topics > div {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.topics > div:hover {
+  background-color: #e0dfdf;
+}
+
+.images {
+  width: 1053px;
+  height: 300px;
+  /* background-color: red; */
+  padding-top: 144px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding-left: 14px;
+}
+
+.images > div {
+  /* height: 200px; */
+  /* background-color: red; */
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.images > div > img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.smalllogo {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  /* background-color: red; */
+  margin-top: 16px;
+  /* align-items: center; */
+}
+
+.smalllogo > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.smalllogo > P {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  /* padding-top: 20px; */
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.colorchange {
+  color: #606265;
+  padding-left: 57px;
+  padding-top: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.colorchange:hover {
+  color: black;
+}
+
+.viewstotal{
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 57px;
+  padding-top: 4px;
+  color: #606265;
+  cursor: pointer;
+}

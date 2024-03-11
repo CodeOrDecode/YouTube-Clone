@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.videomaindiv{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+
+.player{
+    border-radius: 15px;
+}
+
+.extravideo{
+    width: 35%;
+    height: 400px;
+
+}
+
+.maindesc{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.allthefuncis{
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.habib{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.alllikeanddislikes{
+    display: flex;
+}
+
+.iconshere{
+    font-size: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.iconshere:hover{
+    color: blue;
+}
+
+.commentsnum{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.maincommentdiv{
+    width: 100%;
+    /* height: 20px; */
+    margin-top: 36px;
+    /* background-color: red; */
+    /* margin-bottom: 15px; */
+}
+
+.maincommentdiv>div>p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.makecomment{
+    margin-top: 16px;
+}
+
+.videosmall{
+    width: 100%;
+    /* height: 160px; */
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 16px;
+}
+
+
+.videosmall>div>img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.creativedivone>p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    padding-left: 15px;
+    width: 266px;
+}
+
+.fanone{
+    color: #60626f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.fanone11{
+    color: #60626f;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+}

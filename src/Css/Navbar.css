@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.beforeloginnavbar {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  background-color: white;
+}
+
+.beforeloginnavbar > div:nth-child(1) {
+  width: 13%;
+  height: 60px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+.beforeloginnavbar > div:nth-child(2) {
+  width: 50%;
+  height: 60px;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+}
+.beforeloginnavbar > div:nth-child(3) {
+  width: 13%;
+  height: 60px;
+  /* background-color: red; */
+}
+
+.hamlogo {
+  width: 26px;
+}
+
+.youtubelogo {
+  width: 92px;
+}
+
+.secondnavinput {
+  width: 579px;
+  height: 42px;
+  border: 1px solid #cccccc;
+  border-radius: 24px 0px 0px 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-left: 19px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.searchone {
+  width: 69px;
+  height: 42px;
+  border: 1px solid #cccccc;
+  border-radius: 0px 24px 24px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f8f8f8; */
+  cursor: pointer;
+}
+
+.searchnav {
+  width: 24px;
+}
+
+.micicon {
+  width: 40px;
+  height: 40px;
+  background-color: #f2f2f2;
+  margin-left: 14px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.micicon:hover {
+  background-color: #d6d3d3;
+}
+
+.micis {
+  font-size: 21px;
+}
+
+.thirdnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.thirdnavcon {
+  width: 102px;
+  height: 37px;
+  border: 1px solid #cccccc;
+  border-radius: 24px 24px 24px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  justify-content: space-around;
+  padding: 0px 8px;
+}
+
+.thirdnavcon:hover {
+  background-color: #e0f5f3;
+  border: 1px solid white;
+}
+.accounticon {
+  font-size: 26px;
+}
+
+.signinbutton {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.thirdnav2 {
+  display: flex;
+  align-items: center;
+}
+.thirdnav2 > div {
+  cursor: pointer;
+  margin-right: 28px;
+}
+
+.nameletter {
+  width: 35px;
+  height: 35px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: 500;
+  border: 1px solid #cccccc;
+  border-radius: 50px;
+}
+
+.nameletter:hover{
+  background-color: #f5f2f2;
+}
+
+.floatingbar{
+  position: fixed;
+  top: 14px;
+  background-color: white;
+  width: 298px;
+  height: 580px;
+  right: 83px;
+  z-index: 30;
+  border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.floatoneis{
+  width: 100%;
+  height: 38px;
+  /* background-color: red; */
+  display: flex;
+  /* align-items: center; */
+  padding-top: 16px;
+}
+
+.floatoneis>div{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  border: 1px solid #cccccc;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.floatoneis>div:hover{
+background-color: #f1f5f5;
+
+}
+
+.floatoneis>p{
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  padding-left: 35px;
+}
+
+.chennelafterlo{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-left: 30px;
+  color: #1367d6;
+  cursor: pointer;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+
+.catagorywiseafter{
+  width: 100%;
+  margin-top: 16px;
+}
+
+.smalllcatafterlo{
+  width: 100%;
+  height: 40px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  cursor: pointer;
+}
+
+.smalllcatafterlo>svg{
+  width: 25%;
+}
+.smalllcatafterlo>p{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  width: 70%;
+  padding-right: 30px;
+}
+
+.smalllcatafterlo:hover{
+  background-color: #f7f7f7;
+}
+
+.ruller2{
+  background-color: #e5e5e5;
+  height: 1px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  
+}

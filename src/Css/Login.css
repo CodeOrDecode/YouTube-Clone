@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logindepends{
+  background-color: #f0f4f9;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.logindiv {
+  width: 900px;
+  height: 430px;
+  margin: auto;
+  background-color: white;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstlogindiv {
+  width: 35%;
+  /* background-color: red; */
+  padding-top: 32px;
+  padding-left: 32px;
+}
+
+.secondlogindiv {
+  width: 54%;
+  padding-top: 87px;
+  padding-left: 28px;
+  padding-right: 30px;
+}
+
+.signinp1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  margin-top: 16px;
+}
+
+.signinp2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.secondlogindiv > input {
+  display: block;
+  border: 1px solid #747775;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #747775;
+  padding-left: 14px;
+}
+
+.secondlogindiv > input:nth-child(1) {
+  width: 418px;
+  height: 55px;
+}
+
+.secondlogindiv > input:nth-child(2) {
+  width: 418px;
+  height: 55px;
+  margin-top: 18px;
+}
+
+.forgetp {
+  color: #0b57d0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.pribrowsing {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #504d46;
+  margin-top: 30px;
+}
+
+.forgetp2 {
+  color: #0b57d0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.buttononethis {
+  margin-top: 26px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 32px;
+}
+
+.logbut1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #0b57d0;
+  padding: 12px 14px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  background-color: white;
+}
+
+.logbut1:hover{
+    background-color: #dbe6f7;
+}
+
+.logbut2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  background-color: #0b57d0;
+  padding: 12px 24px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 17px;
+  margin-left: 32px;
+}
+
+.invalidone{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 12px;
+  color: rgb(243, 82, 82);
+}
