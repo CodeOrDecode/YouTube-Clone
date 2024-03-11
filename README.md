@@ -1,5 +1,5 @@
 
-# Asos Clone
+# YouTube Clone
 
 YouTube is an American online video sharing and social media platform owned by Google.
 
@@ -49,7 +49,7 @@ YouTube is an American online video sharing and social media platform owned by G
 
 
 
-- REACT
+- React
 - React Icons
 - React Player
 - React Top loading bar
